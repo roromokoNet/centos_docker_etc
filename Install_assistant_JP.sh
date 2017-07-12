@@ -30,7 +30,7 @@ Install_Docker() {
 	echo -e ' 20%[!----]'"\r\c"
 	yum-config-manager \
 		--add-repo \
-		https://docs.docker.com/engine/installation/linux/repo_files/centos/docker.repo \
+		https://download.docker.com/linux/centos/docker-ce.repo \
 		 >/dev/null 2>&1
 	echo -e ' 40%[!!---]'"\r\c"
 	yum-config-manager --enable docker-main >/dev/null 2>&1
